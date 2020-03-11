@@ -13,6 +13,6 @@ const AUTH = {
 export default {
     textToAudio(data) {
         console.log(AUTH)
-        return Axios.post(`${URL}/text-to-audio-with-polly`, data, AUTH);
+        return Axios.post(`${URL}/text-to-audio-with-polly`, data, AUTH);        
     }
 }
